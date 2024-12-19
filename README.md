@@ -1,6 +1,7 @@
 **Projeyi Yapanlar**
 
 Ümmügülsüm Yücel - https://github.com/ummugulsumyucel
+
 Sümeyra Sümer - https://github.com/SumeyraSumer 
 
 **ÜNİVERSİTE KÜTÜPHANE YÖNETİM SİSTEMİ**
@@ -63,3 +64,13 @@ o	Observer: Kullanıcı giriş durumlarını izlemek için kullanıldı.
 
  
 ![Ekran görüntüsü 2024-12-15 225645](https://github.com/user-attachments/assets/32ab3656-703e-4334-9a17-e9fbbee9245e)
+
+
+**VERİTABANI GÖRÜNTÜLERİ**
+![image](https://github.com/user-attachments/assets/15dddf02-bdb1-4eef-beed-276b12744176)
+
+![image](https://github.com/user-attachments/assets/3565a4f3-89d7-40bc-91a2-11481aeb05f0)
+![image](https://github.com/user-attachments/assets/69d8ded0-6bb9-48d8-9160-9704c90497ce)
+
+![image](https://github.com/user-attachments/assets/c04a92a6-3c34-4e7b-b89a-e3f572611139)
+![image](https://github.com/user-attachments/assets/75b3460e-eb10-4cfc-98ad-1368273d66bf)
