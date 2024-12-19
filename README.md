@@ -3,21 +3,33 @@ Bu proje, üniversite kütüphanelerinin yönetimini kolaylaştırmak ve verimli
 
 **Özellikler**
 •	Kullanıcı Kayıt ve Giriş: Yeni kullanıcıların kayıt olması ve mevcut hesaplarla sisteme giriş yapılması.
+
 •	Kitap Envanteri: Kitap ekleme, güncelleme, silme ve listeleme.
+
 •	Ödünç Alma ve İade: Kitapların ödünç alınması ve iade edilmesi.
+
 •	Yetkilendirme: Kullanıcıların admin veya normal kullanıcı olarak sınıflandırılması.
+
 •	Veritabanı Bağlantısı: MySQL tabanlı bir veritabanı ile verilerin yönetilmesi.
+
 •	MVC Mimarisi: Model-View-Controller yapısına uygun tasarım.
+
 •	Tasarım Desenleri: Singleton, Factory Method ve Observer tasarım desenlerinin kullanımı.
 
 **Teknik Detaylar**
 **Kullanılan Teknolojiler**
 •	Programlama Dili: Java
+
 •	Grafik Kullanıcı Arayüzü: Swing
+
 •	Veritabanı: MySQL
+
 •	Tasarım Desenleri:
+
 o	Singleton: Veritabanı bağlantılarını yönetmek için kullanıldı.
+
 o	Factory Method: Kullanıcı ve kitap işlemleri nesnelerinin oluşturulması için kullanıldı.
+
 o	Observer: Kullanıcı giriş durumlarını izlemek için kullanıldı.
 
 
