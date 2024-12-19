@@ -18,110 +18,110 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Veritabanı: `demo`
+-- Veritabanı: demo
 --
 
 -- --------------------------------------------------------
 
 --
--- Tablo için tablo yapısı `adminler`
+-- Tablo için tablo yapısı adminler
 --
 
-CREATE TABLE `adminler` (
-  `username` text NOT NULL,
-  `password` text NOT NULL,
-  `tip` varchar(10) NOT NULL DEFAULT 'admin'
+CREATE TABLE adminler (
+  username text NOT NULL,
+  password text NOT NULL,
+  tip varchar(10) NOT NULL DEFAULT 'admin'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf32 COLLATE=utf32_turkish_ci;
 
 --
--- Tablo döküm verisi `adminler`
+-- Tablo döküm verisi adminler
 --
 
-INSERT INTO `adminler` (`username`, `password`, `tip`) VALUES
-('ahmetagziguzel', '12345', 'admin'),
-('ytzibrahim', '12345', 'admin'),
-('dumanyusuf', '12345', 'admin'),
-('rbvc', '12345', 'admin');
+INSERT INTO adminler (username, password, tip) VALUES
+('sumeyrasümer', 'smyrsmr', 'admin'),
+('ümmügülsümyücel', 'ummu123', 'admin'),
+
 
 -- --------------------------------------------------------
 
 --
--- Tablo için tablo yapısı `kitaplar`
+-- Tablo için tablo yapısı kitaplar
 --
 
-CREATE TABLE `kitaplar` (
-  `id` int(11) NOT NULL,
-  `kitap_adi` text CHARACTER SET utf8 COLLATE utf8_turkish_ci NOT NULL,
-  `yazar` text CHARACTER SET utf8 COLLATE utf8_turkish_ci NOT NULL,
-  `kitap_konu` text CHARACTER SET utf8 COLLATE utf8_turkish_ci NOT NULL,
-  `tarih` text CHARACTER SET utf8 COLLATE utf8_turkish_ci NOT NULL,
-  `durum` varchar(255) DEFAULT 'RAFTA'
+CREATE TABLE kitaplar (
+  id int(11) NOT NULL,
+  kitap_adi text CHARACTER SET utf8 COLLATE utf8_turkish_ci NOT NULL,
+  yazar text CHARACTER SET utf8 COLLATE utf8_turkish_ci NOT NULL,
+  kitap_konu text CHARACTER SET utf8 COLLATE utf8_turkish_ci NOT NULL,
+  tarih text CHARACTER SET utf8 COLLATE utf8_turkish_ci NOT NULL,
+  durum varchar(255) DEFAULT 'RAFTA'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf32 COLLATE=utf32_turkish_ci;
 
 --
--- Tablo döküm verisi `kitaplar`
+-- Tablo döküm verisi kitaplar
 --
 
-INSERT INTO `kitaplar` (`id`, `kitap_adi`, `yazar`, `kitap_konu`, `tarih`, `durum`) VALUES
-(1, 'Don Kişot', 'Miguel de Cervantes', 'Klasik', '1605', 'RAFTA'),
-(2, 'Romeo ve Juliet', 'William Shakespeare', 'Bilim Kurgu', '1597', 'RAFTA'),
-(3, 'Sefiller', 'Victor Hugo', 'Klasik', '1862', 'RAFTA'),
-(4, 'Suç ve Ceza', 'Fyodor Dostoevsky', 'Klasik', '1866', 'RAFTA'),
-(5, 'Karamazov Kardeşler', 'Fyodor Dostoevsky', 'Klasik', '1880', 'RAFTA'),
-(6, 'Yeraltından Notlar', 'Fyodor Dostoevsky', 'Klasik', '1864', 'RAFTA'),
-(7, 'Les Misérables', 'Victor Hugo', 'Klasik', '1862', 'RAFTA'),
-(8, 'War and Peace', 'Lev Tolstoy', 'Klasik', '1869', 'RAFTA'),
-(9, '1984', 'George Orwell', 'Distopya', '1949', 'RAFTA'),
-(10, 'Brave New World', 'Aldous Huxley', 'Distopya', '1932', 'RAFTA'),
-(11, 'The Catcher in the Rye', 'J.D. Salinger', 'Roman', '1951', 'RAFTA'),
-(12, 'To Kill a Mockingbird', 'Harper Lee', 'Drama', '1960', 'RAFTA'),
-(13, 'The Great Gatsby', 'F. Scott Fitzgerald', 'Roman', '1925', 'RAFTA'),
-(14, 'Pride and Prejudice', 'Jane Austen', 'Romantizm', '1813', 'RAFTA'),
-(15, 'One Hundred Years of Solitude', 'Gabriel Garcia Marquez', 'Büyülü Gerçekçilik', '1967', 'RAFTA'),
-(16, 'The Hobbit', 'J.R.R. Tolkien', 'Fantastik', '1937', 'RAFTA'),
-(17, 'The Lord of the Rings: The Fellowship of the Ring', 'J.R.R. Tolkien', 'Fantastik', '1954', 'RAFTA'),
-(18, 'The Lord of the Rings: The Two Towers', 'J.R.R. Tolkien', 'Fantastik', '1954', 'RAFTA'),
-(19, 'The Lord of the Rings: The Return of the King', 'J.R.R. Tolkien', 'Fantastik', '1955', 'RAFTA'),
-(20, 'The Silmarillion', 'J.R.R. Tolkien', 'Fantastik', '1977', 'RAFTA'),
-(21, 'Unfinished Tales', 'J.R.R. Tolkien', 'Fantastik', '1980', 'RAFTA');
+INSERT INTO kitaplar (id, kitap_adi, yazar, kitap_konu, tarih, durum) VALUES
+(1, 'Bülbülü Öldürmek', 'Harper Lee', 'Drama', '1960', 'RAFTA'),
+(2, 'Hayvan Çiftliği', 'George Orwell', 'Distopya', '1945', 'RAFTA'),
+(3, 'Frankenstein', 'Mary Shelley', 'Gotik', '1818', 'RAFTA'),
+(4, 'Drakula', 'Bram Stoker', 'Gotik', '1897', 'RAFTA'),
+(5, 'Sonsuzluğun Sonu', 'Isaac Asimov', 'Bilim Kurgu', '1955', 'RAFTA'),
+(6, 'Dune', 'Frank Herbert', 'Bilim Kurgu', '1965', 'RAFTA'),
+(7, 'Otostopçunun Galaksi Rehberi', 'Douglas Adams', 'Bilim Kurgu', '1979', 'RAFTA'),
+(8, 'Mülksüzler', 'Ursula K. Le Guin', 'Bilim Kurgu', '1974', 'RAFTA'),
+(9, 'Sineklerin Tanrısı', 'William Golding', 'Roman', '1954', 'RAFTA'),
+(10, 'Küçük Prens', 'Antoine de Saint-Exupéry', 'Çocuk', '1943', 'RAFTA'),
+(11, 'Denizler Altında Yirmi Bin Fersah', 'Jules Verne', 'Macera', '1870', 'RAFTA'),
+(12, 'Seksen Günde Devri Alem', 'Jules Verne', 'Macera', '1873', 'RAFTA'),
+(13, 'Vadideki Zambak', 'Honoré de Balzac', 'Klasik', '1836', 'RAFTA'),
+(14, 'Monte Cristo Kontu', 'Alexandre Dumas', 'Klasik', '1844', 'RAFTA'),
+(15, 'Üç Silahşörler', 'Alexandre Dumas', 'Macera', '1844', 'RAFTA'),
+(16, 'Yüzüklerin Efendisi: Güç Yüzüklerinin Tarihi', 'J.R.R. Tolkien', 'Fantastik', '1981', 'RAFTA'),
+(17, 'Göz', 'Stephen King', 'Korku', '1977', 'RAFTA'),
+(18, 'Carrie', 'Stephen King', 'Korku', '1974', 'RAFTA'),
+(19, 'O', 'Stephen King', 'Korku', '1986', 'RAFTA'),
+(20, 'Gizli Bahçe', 'Frances Hodgson Burnett', 'Çocuk', '1911', 'RAFTA'),
+(21, 'Robinson Crusoe', 'Daniel Defoe', 'Macera', '1719', 'RAFTA');
+
 
 -- --------------------------------------------------------
 
 --
--- Tablo için tablo yapısı `kullanicilar`
+-- Tablo için tablo yapısı kullanicilar
 --
 
-CREATE TABLE `kullanicilar` (
-  `id` int(11) NOT NULL,
-  `ad_soyad` varchar(255) NOT NULL,
-  `username` varchar(50) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `tip` varchar(10) NOT NULL DEFAULT 'kullanici'
+CREATE TABLE kullanicilar (
+  id int(11) NOT NULL,
+  ad_soyad varchar(255) NOT NULL,
+  username varchar(50) NOT NULL,
+  password varchar(255) NOT NULL,
+  tip varchar(10) NOT NULL DEFAULT 'kullanici'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
 
 --
--- Tablo döküm verisi `kullanicilar`
+-- Tablo döküm verisi kullanicilar
 --
 
-INSERT INTO `kullanicilar` (`id`, `ad_soyad`, `username`, `password`, `tip`) VALUES
-(1, 'Rıdvan Bekleviç', 'ibocan', '123', 'kullanici'),
-(2, 'ibrahim Yitiz', 'yitiz123', '123', 'kullanici'),
-(3, 'yusuf duman', 'duman', '123', 'kullanici'),
-(4, 'Rıdvan Bekleviç', 'rbvc12', '12345', 'kullanici');
+INSERT INTO kullanicilar (id, ad_soyad, username, password, tip) VALUES
+(1, 'Sümeyra Sümer', 'süm', 'süm12345', 'kullanici'),
+(2, 'Ümmügülsüm Yücel', 'gulsumycl', '1234gulsum', 'kullanici'),
+(3, 'Zeki Kayık', 'zekikyk', 'zeki123', 'kullanici'),
+(4, 'Merve Balat', 'mrvblt', '12345', 'kullanici');
 
 -- --------------------------------------------------------
 
 --
--- Tablo için tablo yapısı `odunc_tablosu`
+-- Tablo için tablo yapısı odunc_tablosu
 --
 
-CREATE TABLE `odunc_tablosu` (
-  `odunc_id` int(11) NOT NULL,
-  `odunc_kitap_adi` varchar(255) NOT NULL,
-  `odunc_yazar` varchar(100) DEFAULT NULL,
-  `odunc_kitap_konu` varchar(255) DEFAULT NULL,
-  `odunc_tarih` varchar(55) DEFAULT NULL,
-  `durum` varchar(255) DEFAULT 'ÖDÜNÇ ALINDI'
+CREATE TABLE odunc_tablosu (
+  odunc_id int(11) NOT NULL,
+  odunc_kitap_adi varchar(255) NOT NULL,
+  odunc_yazar varchar(100) DEFAULT NULL,
+  odunc_kitap_konu varchar(255) DEFAULT NULL,
+  odunc_tarih varchar(55) DEFAULT NULL,
+  durum varchar(255) DEFAULT 'ÖDÜNÇ ALINDI'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
 
 --
@@ -129,45 +129,45 @@ CREATE TABLE `odunc_tablosu` (
 --
 
 --
--- Tablo için indeksler `kitaplar`
+-- Tablo için indeksler kitaplar
 --
-ALTER TABLE `kitaplar`
-  ADD PRIMARY KEY (`id`);
+ALTER TABLE kitaplar
+  ADD PRIMARY KEY (id);
 
 --
--- Tablo için indeksler `kullanicilar`
+-- Tablo için indeksler kullanicilar
 --
-ALTER TABLE `kullanicilar`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `username` (`username`);
+ALTER TABLE kullanicilar
+  ADD PRIMARY KEY (id),
+  ADD UNIQUE KEY username (username);
 
 --
--- Tablo için indeksler `odunc_tablosu`
+-- Tablo için indeksler odunc_tablosu
 --
-ALTER TABLE `odunc_tablosu`
-  ADD PRIMARY KEY (`odunc_id`);
+ALTER TABLE odunc_tablosu
+  ADD PRIMARY KEY (odunc_id);
 
 --
 -- Dökümü yapılmış tablolar için AUTO_INCREMENT değeri
 --
 
 --
--- Tablo için AUTO_INCREMENT değeri `kitaplar`
+-- Tablo için AUTO_INCREMENT değeri kitaplar
 --
-ALTER TABLE `kitaplar`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+ALTER TABLE kitaplar
+  MODIFY id int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
--- Tablo için AUTO_INCREMENT değeri `kullanicilar`
+-- Tablo için AUTO_INCREMENT değeri kullanicilar
 --
-ALTER TABLE `kullanicilar`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+ALTER TABLE kullanicilar
+  MODIFY id int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
--- Tablo için AUTO_INCREMENT değeri `odunc_tablosu`
+-- Tablo için AUTO_INCREMENT değeri odunc_tablosu
 --
-ALTER TABLE `odunc_tablosu`
-  MODIFY `odunc_id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE odunc_tablosu
+  MODIFY odunc_id int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
