@@ -67,6 +67,7 @@ o	Observer: Kullanıcı giriş durumlarını izlemek için kullanıldı.
 
 
 **VERİTABANI GÖRÜNTÜLERİ**
+
 ![image](https://github.com/user-attachments/assets/15dddf02-bdb1-4eef-beed-276b12744176)
 
 ![image](https://github.com/user-attachments/assets/3565a4f3-89d7-40bc-91a2-11481aeb05f0)
