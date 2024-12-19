@@ -1,3 +1,8 @@
+**Projeyi Yapanlar**
+
+Ümmügülsüm Yücel - https://github.com/ummugulsumyucel
+Sümeyra Sümer - https://github.com/SumeyraSumer 
+
 **ÜNİVERSİTE KÜTÜPHANE YÖNETİM SİSTEMİ**
 Bu proje, üniversite kütüphanelerinin yönetimini kolaylaştırmak ve verimliliği artırmak amacıyla geliştirilmiş bir yazılım uygulamasıdır. Kullanıcıların kayıt olup giriş yapabileceği, kitapların envanterde kayıt altına alınabileceği, ödünç verme ve iade gibi işlevlerin yürütülebileceği bir sistem sunar. Proje, tasarım desenleri ile yazılım kalitesini artırmayı hedefler.
 
