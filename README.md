@@ -2,6 +2,7 @@
 Bu proje, üniversite kütüphanelerinin yönetimini kolaylaştırmak ve verimliliği artırmak amacıyla geliştirilmiş bir yazılım uygulamasıdır. Kullanıcıların kayıt olup giriş yapabileceği, kitapların envanterde kayıt altına alınabileceği, ödünç verme ve iade gibi işlevlerin yürütülebileceği bir sistem sunar. Proje, tasarım desenleri ile yazılım kalitesini artırmayı hedefler.
 
 **Özellikler**
+
 •	Kullanıcı Kayıt ve Giriş: Yeni kullanıcıların kayıt olması ve mevcut hesaplarla sisteme giriş yapılması.
 
 •	Kitap Envanteri: Kitap ekleme, güncelleme, silme ve listeleme.
@@ -16,8 +17,11 @@ Bu proje, üniversite kütüphanelerinin yönetimini kolaylaştırmak ve verimli
 
 •	Tasarım Desenleri: Singleton, Factory Method ve Observer tasarım desenlerinin kullanımı.
 
+
 **Teknik Detaylar**
+
 **Kullanılan Teknolojiler**
+
 •	Programlama Dili: Java
 
 •	Grafik Kullanıcı Arayüzü: Swing
